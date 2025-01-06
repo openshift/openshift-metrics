@@ -1,0 +1,28 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: handler
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: code
+  metric_description: null
+  metric_name: code_handler_job_namespace:lokistack_gateway_http_requests:irate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: code
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: code_resource:apiserver_request_total:rate5m
+  type: null

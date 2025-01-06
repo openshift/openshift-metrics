@@ -1,0 +1,39 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: label_node_role_kubernetes_io
+  - label_description: null
+    label_name: label_kubernetes_io_arch
+  - label_description: null
+    label_name: label_node_openshift_io_os_id
+  metric_description: null
+  metric_name: cluster:capacity_cpu_cores:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: label_node_hyperthread_enabled
+  metric_description: null
+  metric_name: cluster:capacity_cpu_cores_hyperthread_enabled:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: label_node_role_kubernetes_io
+  - label_description: null
+    label_name: label_node_hyperthread_enabled
+  metric_description: null
+  metric_name: cluster:capacity_cpu_sockets_hyperthread_enabled:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: label_node_role_kubernetes_io
+  metric_description: null
+  metric_name: cluster:capacity_memory_bytes:sum
+  type: null

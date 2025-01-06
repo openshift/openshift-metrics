@@ -1,0 +1,17 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: platform
+  metric_description: null
+  metric_name: platform:hypershift_nodepools:max
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: platform
+  metric_description: null
+  metric_name: platform:hypershift_hostedclusters:max
+  type: null

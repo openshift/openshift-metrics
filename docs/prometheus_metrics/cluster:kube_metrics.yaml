@@ -1,0 +1,19 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: provisioner
+  metric_description: null
+  metric_name: cluster:kube_persistentvolumeclaim_resource_requests_storage_bytes:provisioner:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: plugin_name
+  - label_description: null
+    label_name: volume_mode
+  metric_description: null
+  metric_name: cluster:kube_persistentvolume_plugin_type_counts:sum
+  type: null
