@@ -1,0 +1,156 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: resource_verb:apiserver_request_aborts_total:rate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: resource_verb:apiserver_request_aborts_total:rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: null
+    label_name: group
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: kind
+  metric_description: Timestamp at which a resource was created
+  metric_name: resource_created_at_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: le
+  - label_description: null
+    label_name: verb
+  - label_description: null
+    label_name: resource
+  metric_description: null
+  metric_name: resource_verb:apiserver_request_duration_seconds_bucket:rate:5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: le
+  - label_description: null
+    label_name: verb
+  - label_description: null
+    label_name: resource
+  metric_description: null
+  metric_name: resource_verb:apiserver_request_duration_seconds_bucket:rate:1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: resource_verb:apiserver_request_total:rate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: resource_verb:apiserver_response_sizes_sum:rate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: resource_verb:apiserver_request_total:rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: resource_verb:apiserver_response_sizes_sum:rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: resource_verb:apiserver_selfrequest_total:rate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: resource_verb:apiserver_selfrequest_total:rate5m
+  type: null

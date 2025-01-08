@@ -1,0 +1,15 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: app
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: method
+  - label_description: null
+    label_name: code
+  metric_description: null
+  metric_name: hypershift:operator:component_api_requests_total
+  type: null

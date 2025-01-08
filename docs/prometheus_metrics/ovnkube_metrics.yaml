@@ -1,0 +1,2326 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: network_name
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of v4 host subnets currently allocated per
+    network
+  metric_name: ovnkube_clustermanager_allocated_v4_host_subnets
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: network_name
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of v6 host subnets currently allocated per
+    network
+  metric_name: ovnkube_clustermanager_allocated_v6_host_subnets
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: build_user
+  - label_description: null
+    label_name: revision
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: branch
+  - label_description: null
+    label_name: goversion
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: build_date
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: A metric with a constant '1' value labeled by version, revision,
+    branch, and go version from which ovnkube was built and when and who built it
+  metric_name: ovnkube_clustermanager_build_info
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of times assigned egress IP(s) needed to be
+    moved to a different node
+  metric_name: ovnkube_clustermanager_egress_ips_rebalance_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of times assigned egress IP(s) were unreachable
+  metric_name: ovnkube_clustermanager_egress_ips_node_unreachable_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Identifies whether the instance of ovnkube-cluster-manager is
+    a leader(1) or not(0).
+  metric_name: ovnkube_clustermanager_leader
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The number of defined egress IP addresses
+  metric_name: ovnkube_clustermanager_num_egress_ips
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The duration for the cluster manager to get to ready state
+  metric_name: ovnkube_clustermanager_ready_duration_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: network_name
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of v4 host subnets possible per network
+  metric_name: ovnkube_clustermanager_num_v4_host_subnets
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: network_name
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of v6 host subnets possible per network
+  metric_name: ovnkube_clustermanager_num_v6_host_subnets
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of admin network policies in the cluster
+  metric_name: ovnkube_controller_admin_network_policies
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: table_name
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of OVN NBDB objects (table_name) owned by AdminNetworkPolicy
+    controller in the cluster
+  metric_name: ovnkube_controller_admin_network_policies_db_objects
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of baseline admin network policies in the cluster
+  metric_name: ovnkube_controller_baseline_admin_network_policies
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: table_name
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of OVN NBDB objects (table_name) owned by BaselineAdminNetworkPolicy
+    controller in the cluster
+  metric_name: ovnkube_controller_baseline_admin_network_policies_db_objects
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: direction
+  - label_description: null
+    label_name: action
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of rules across all admin network policies
+    in the cluster
+  metric_name: ovnkube_controller_admin_network_policies_rules
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: direction
+  - label_description: null
+    label_name: action
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of rules across all baseline admin network
+    policies in the cluster
+  metric_name: ovnkube_controller_baseline_admin_network_policies_rules
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: build_user
+  - label_description: null
+    label_name: revision
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: branch
+  - label_description: null
+    label_name: goversion
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: build_date
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: A metric with a constant '1' value labeled by version, revision,
+    branch, and go version from which ovnkube was built and when and who built it
+  metric_name: ovnkube_controller_build_info
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Specifies whether IPSec is enabled for this cluster(1) or not
+    enabled for this cluster(0)
+  metric_name: ovnkube_controller_ipsec_enabled
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Specifies whether egress gateway mode is via host networking
+    stack(1) or not(0)
+  metric_name: ovnkube_controller_egress_routing_via_host
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Identifies whether the instance of ovnkube-controller is a leader(1)
+    or not(0).
+  metric_name: ovnkube_controller_leader
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The current e2e-timestamp value as written to the northbound
+    database
+  metric_name: ovnkube_controller_nb_e2e_timestamp
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: kind
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_network_programming_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: kind
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_network_programming_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: kind
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_network_programming_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_network_programming_ovn_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_network_programming_ovn_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The number of egress firewall rules defined
+  metric_name: ovnkube_controller_num_egress_firewall_rules
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The number of egress firewall policies
+  metric_name: ovnkube_controller_num_egress_firewalls
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_network_programming_ovn_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_creation_latency_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_creation_latency_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_first_seen_lsp_created_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_creation_latency_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_first_seen_lsp_created_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_first_seen_lsp_created_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_lsp_created_port_binding_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_lsp_created_port_binding_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_lsp_created_port_binding_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_port_binding_chassis_port_binding_up_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_port_binding_chassis_port_binding_up_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_port_binding_port_binding_chassis_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_port_binding_chassis_port_binding_up_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_port_binding_port_binding_chassis_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The duration for the ovnkube-controller to get to ready state
+  metric_name: ovnkube_controller_ready_duration_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_pod_port_binding_port_binding_chassis_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_resource_add_latency_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: A metric that captures the number of times a service is requeued
+    after failing to sync with OVN
+  metric_name: ovnkube_controller_requeue_service_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_resource_add_latency_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_resource_add_latency_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_resource_delete_latency_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_resource_delete_latency_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_resource_delete_latency_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_resource_update_latency_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_resource_update_latency_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_resource_update_latency_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The current e2e-timestamp value as observed in the southbound
+    database
+  metric_name: ovnkube_controller_sb_e2e_timestamp
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: event
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The number of times a given resource event (add, update, or
+    delete) has been handled
+  metric_name: ovnkube_controller_resource_update_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: resource_name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The duration to sync and setup all handlers for a given resource
+  metric_name: ovnkube_controller_sync_duration_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_sync_service_latency_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_sync_service_latency_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_sync_service_latency_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: A metric that captures the number of times a service is synced
+    with OVN load balancers
+  metric_name: ovnkube_controller_sync_service_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Total number of adds handled by workqueue
+  metric_name: ovnkube_controller_workqueue_adds_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Current depth of workqueue
+  metric_name: ovnkube_controller_workqueue_depth
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: How many seconds has the longest running processor for workqueue
+    been running.
+  metric_name: ovnkube_controller_workqueue_longest_running_processor_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_workqueue_queue_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_workqueue_queue_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: How many seconds of work has done that is in progress and hasn't
+    been observed by work_duration. Large values indicate stuck threads. One can deduce
+    the number of stuck threads by observing the rate at which this increases.
+  metric_name: ovnkube_controller_workqueue_unfinished_work_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_workqueue_queue_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Total number of retries handled by workqueue
+  metric_name: ovnkube_controller_workqueue_retries_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_workqueue_work_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_workqueue_work_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_controller_workqueue_work_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: primary_model
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Count of libovsdb disconnects encountered
+  metric_name: ovnkube_master_libovsdb_disconnects_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: primary_model
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Number of running libovsdb ovsdb monitors
+  metric_name: ovnkube_master_libovsdb_monitors
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: build_user
+  - label_description: null
+    label_name: revision
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: branch
+  - label_description: null
+    label_name: goversion
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: build_date
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: A metric with a constant '1' value labeled by version, revision,
+    branch, and go version from which ovnkube was built and when and who built it.
+  metric_name: ovnkube_node_build_info
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: err
+  - label_description: null
+    label_name: command
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_node_cni_request_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: err
+  - label_description: null
+    label_name: command
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_node_cni_request_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: err
+  - label_description: null
+    label_name: command
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_node_cni_request_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Specifies if the node port is enabled on this node(1) or not(0).
+  metric_name: ovnkube_node_nodeport_enabled
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Total number of adds handled by workqueue
+  metric_name: ovnkube_node_workqueue_adds_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The duration for the node to get to ready state.
+  metric_name: ovnkube_node_ready_duration_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Current depth of workqueue
+  metric_name: ovnkube_node_workqueue_depth
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: How many seconds has the longest running processor for workqueue
+    been running.
+  metric_name: ovnkube_node_workqueue_longest_running_processor_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_node_workqueue_queue_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_node_workqueue_queue_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_node_workqueue_queue_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Total number of retries handled by workqueue
+  metric_name: ovnkube_node_workqueue_retries_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: How many seconds of work has done that is in progress and hasn't
+    been observed by work_duration. Large values indicate stuck threads. One can deduce
+    the number of stuck threads by observing the rate at which this increases.
+  metric_name: ovnkube_node_workqueue_unfinished_work_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_node_workqueue_work_duration_seconds_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_node_workqueue_work_duration_seconds_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: ovnkube_node_workqueue_work_duration_seconds_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: The total number of times processing a Kubernetes resource reached
+    the maximum retry limit and was no longer processed
+  metric_name: ovnkube_resource_retry_failures_total
+  type: counter

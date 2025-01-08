@@ -1,0 +1,43 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:ovnkube_controller_egress_routing_via_host:max
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: table_name
+  metric_description: null
+  metric_name: cluster:ovnkube_controller_baseline_admin_network_policies_db_objects:max
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: direction
+  - label_description: null
+    label_name: action
+  metric_description: null
+  metric_name: cluster:ovnkube_controller_admin_network_policies_rules:max
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: table_name
+  metric_description: null
+  metric_name: cluster:ovnkube_controller_admin_network_policies_db_objects:max
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: direction
+  - label_description: null
+    label_name: action
+  metric_description: null
+  metric_name: cluster:ovnkube_controller_baseline_admin_network_policies_rules:max
+  type: null

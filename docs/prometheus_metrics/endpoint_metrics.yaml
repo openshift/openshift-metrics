@@ -1,0 +1,769 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_controller_endpoints_added_per_sync_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_controller_endpoints_added_per_sync_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_controller_endpoints_added_per_sync_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Number of EndpointSlices that would exist with perfect
+    endpoint allocation'
+  metric_name: endpoint_slice_controller_desired_endpoint_slices
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: operation
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Number of EndpointSlice changes'
+  metric_name: endpoint_slice_controller_changes
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Number of endpoints desired'
+  metric_name: endpoint_slice_controller_endpoints_desired
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_controller_endpoints_removed_per_sync_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_controller_endpoints_removed_per_sync_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_controller_endpoints_removed_per_sync_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: topology
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_controller_endpointslices_changed_per_sync_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: topology
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_controller_endpointslices_changed_per_sync_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: result
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Number of EndpointSlice syncs'
+  metric_name: endpoint_slice_controller_syncs
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: topology
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_controller_endpointslices_changed_per_sync_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Number of EndpointSlices'
+  metric_name: endpoint_slice_controller_num_endpoint_slices
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_addresses_skipped_per_sync_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_addresses_skipped_per_sync_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_addresses_skipped_per_sync_sum
+  type: null
+- labels: []
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_changes
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Number of EndpointSlices that would exist with perfect
+    endpoint allocation'
+  metric_name: endpoint_slice_mirroring_controller_desired_endpoint_slices
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_added_per_sync_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_added_per_sync_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Number of endpoints desired'
+  metric_name: endpoint_slice_mirroring_controller_endpoints_desired
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_added_per_sync_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_removed_per_sync_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_removed_per_sync_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_sync_duration_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_removed_per_sync_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_sync_duration_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_sync_duration_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: le
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_updated_per_sync_bucket
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_updated_per_sync_count
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: endpoint_slice_mirroring_controller_endpoints_updated_per_sync_sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Number of EndpointSlices'
+  metric_name: endpoint_slice_mirroring_controller_num_endpoint_slices
+  type: gauge

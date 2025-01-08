@@ -1,0 +1,322 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: spec_provider_id
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: null
+    label_name: phase
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the Kubernetes node on which the pod or container
+      is running.
+    label_name: node
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  - label_description: null
+    label_name: api_version
+  metric_description: Timestamp of the mapi managed Machine creation time
+  metric_name: mapi_machine_created_timestamp_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Information of the mapi managed Machineset's status for replicas
+  metric_name: mapi_machine_set_status_replicas
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Information of the mapi managed Machineset's status for available
+    replicas
+  metric_name: mapi_machine_set_status_replicas_available
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Count of machine objects currently at the apiserver
+  metric_name: mapi_machine_items
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Count of recently pending node CSRs at the cluster level
+  metric_name: mapi_current_pending_csr
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Information of the mapi managed Machineset's status for ready
+    replicas
+  metric_name: mapi_machine_set_status_replicas_ready
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Short circuit status for MachineHealthCheck (0=no, 1=yes)
+  metric_name: mapi_machinehealthcheck_short_circuit
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Number of nodes covered by MachineHealthChecks
+  metric_name: mapi_machinehealthcheck_nodes_covered
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: null
+    label_name: api_version
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Timestamp of the mapi managed Machineset creation time
+  metric_name: mapi_machineset_created_timestamp_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Count of machinesets at the apiserver
+  metric_name: mapi_machineset_items
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: kind
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Machine API Operator metrics are being collected and reported
+    successfully
+  metric_name: mapi_mao_collector_up
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Threshold value of the pending node CSRs beyond which all CSR
+    will be ignored by machine approver
+  metric_name: mapi_max_pending_csr
+  type: gauge

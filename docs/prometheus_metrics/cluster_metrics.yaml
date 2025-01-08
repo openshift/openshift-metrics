@@ -1,0 +1,607 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Reports the feature set the cluster is configured to expose.
+    name corresponds to the featureSet field of the cluster. The value is 1 if a cloud
+    provider is supported.
+  metric_name: cluster_feature_set
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: null
+    label_name: invoker
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: type
+  metric_description: Reports info about the installation process and, if applicable,
+    the install tool. The type is either 'openshift-install', indicating that openshift-install
+    was used to install the cluster, or 'other', indicating that an unknown process
+    installed the cluster. The invoker is 'user' by default, but it may be overridden
+    by a consuming tool. The version reported is that of the openshift-install that
+    was used to generate the manifests and, if applicable, provision the infrastructure.
+  metric_name: cluster_installer
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: Reports whether the cluster scheduler is configured with a legacy
+    KubeScheduler Policy.
+  metric_name: cluster_legacy_scheduler_policy
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: Reports whether the cluster scheduler is configured with a default
+    node selector.
+  metric_name: cluster_default_node_selector
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: type
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Reports whether the cluster is configured with an infrastructure
+    provider. type is unset if no cloud provider is recognized or set to the constant
+    used by the Infrastructure config. region is set when the cluster clearly identifies
+    a region within the provider. external is the external platform name when present.
+    The value is 1 if a cloud provider is set or 0 if it is unset.
+  metric_name: cluster_infrastructure_provider
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: Reports whether the cluster master nodes are schedulable.
+  metric_name: cluster_master_schedulable
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Latest reconciliation state. Set to 1 if last reconciliation
+    succeeded, else 0.'
+  metric_name: cluster_monitoring_operator_last_reconciliation_successful
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: field
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: null
+    label_name: deprecation_version
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: configmap
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Set to 1 for deprecated configuration fields that are
+    still in use, else 0.'
+  metric_name: cluster_monitoring_operator_deprecated_config_in_use
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: null
+    label_name: cluster_name
+  metric_description: null
+  metric_name: cluster_name:hypershift_nodepools_available_replicas:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[ALPHA] Number of attempts to reconcile the operator configuration.'
+  metric_name: cluster_monitoring_operator_reconcile_attempts_total
+  type: counter
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: condition
+  metric_description: Reports the number of times that a condition on a cluster operator
+    changes status
+  metric_name: cluster_operator_condition_transitions
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: exported_namespace
+  - label_description: null
+    label_name: cluster_name
+  metric_description: null
+  metric_name: cluster_name:hypershift_nodepools_size:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: reason
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: condition
+  metric_description: Report the conditions for active cluster operators. 0 is False
+    and 1 is True.
+  metric_name: cluster_operator_conditions
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: Report the number of errors encountered applying the payload.
+  metric_name: cluster_operator_payload_errors
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: reason
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: 1 if a cluster operator is Available=True.  0 otherwise, including
+    if a cluster operator sets no Available condition.  The 'version' label tracks
+    the 'operator' version.  The 'reason' label is passed through from the Available
+    condition, unless the cluster operator sets no Available condition, in which case
+    NoAvailableCondition is used.
+  metric_name: cluster_operator_up
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: type
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: Reports whether the cluster has been configured to use a proxy.
+    type is which type of proxy configuration has been set - http for an http proxy,
+    https for an https proxy, and trusted_ca if a custom CA was specified.
+  metric_name: cluster_proxy_enabled
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: quantile
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: null
+  metric_name: cluster_quantile:scheduler_scheduling_algorithm_duration_seconds:histogram_quantile
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: scope
+  - label_description: null
+    label_name: version
+  - label_description: null
+    label_name: apiserver
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: subresource
+  - label_description: null
+    label_name: group
+  - label_description: null
+    label_name: verb
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: component
+  - label_description: null
+    label_name: quantile
+  - label_description: null
+    label_name: dry_run
+  metric_description: null
+  metric_name: cluster_quantile:apiserver_request_duration_seconds:histogram_quantile
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: null
+    label_name: image
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: from_version
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: type
+  metric_description: "Reports the version of the cluster in terms of seconds since\n\
+    the epoch. Type 'current' is the version being applied and\nthe value is the creation\
+    \ date of the payload. The type\n'desired' is returned if spec.desiredUpdate is\
+    \ set but the\noperator has not yet updated and the value is the most \nrecent\
+    \ status transition time. The type 'failure' is set \nif an error is preventing\
+    \ sync or upgrade with the last \ntransition timestamp of the condition. The type\
+    \ 'completed' \nis the timestamp when the last image was successfully\napplied.\
+    \ The type 'cluster' is the creation date of the\ncluster version object and the\
+    \ current version. The type\n'updating' is set when the cluster is transitioning\
+    \ to a\nnew version but has not reached the completed state and\nis the time the\
+    \ update was started. The type 'initial' is\nset to the oldest entry in the history.\
+    \ The from_version label\nwill be set to the last completed version for most types,\
+    \ the\ninitial version for 'cluster', empty for 'initial', and the\npenultimate\
+    \ completed version for 'completed'.\n."
+  metric_name: cluster_version
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: null
+    label_name: channel
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: upstream
+  metric_description: Report the count of available versions for an upstream and channel.
+  metric_name: cluster_version_available_updates
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: Report currently enabled cluster capabilities.  0 is disabled,
+    and 1 is enabled.
+  metric_name: cluster_version_capability
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: reason
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: status
+  - label_description: null
+    label_name: condition
+  metric_description: Reports when the Recommended condition status on a conditional
+    update changed to its current state.
+  metric_name: cluster_version_conditional_update_condition_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: Reports when updates were last successfully retrieved.
+  metric_name: cluster_version_operator_update_retrieval_timestamp_seconds
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: version
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: type
+  metric_description: Report the number of entries in the payload.
+  metric_name: cluster_version_payload
+  type: gauge

@@ -1,0 +1,7 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: node:node_cpu_utilization:ratio_rate5m
+  type: null

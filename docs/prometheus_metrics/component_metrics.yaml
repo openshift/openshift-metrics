@@ -1,0 +1,25 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: component
+  - label_description: null
+    label_name: apiserver
+  metric_description: null
+  metric_name: component_resource:apiserver_request_terminations_total:rate:5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: component
+  - label_description: null
+    label_name: apiserver
+  metric_description: null
+  metric_name: component_resource:apiserver_request_terminations_total:rate:1m
+  type: null

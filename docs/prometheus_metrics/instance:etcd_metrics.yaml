@@ -1,0 +1,61 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  metric_description: null
+  metric_name: instance:etcd_mvcc_db_total_size_in_use_in_bytes:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: quantile
+  metric_description: null
+  metric_name: instance:etcd_network_peer_round_trip_time_seconds:histogram_quantile
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  metric_description: null
+  metric_name: instance:etcd_mvcc_db_total_size_in_bytes:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: quantile
+  metric_description: null
+  metric_name: instance:etcd_disk_backend_commit_duration_seconds:histogram_quantile
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: quantile
+  metric_description: null
+  metric_name: instance:etcd_disk_wal_fsync_duration_seconds:histogram_quantile
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  metric_description: null
+  metric_name: instance:etcd_object_counts:sum
+  type: null

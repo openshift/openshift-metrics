@@ -1,0 +1,9 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: cluster_namespace
+  metric_description: null
+  metric_name: cluster:policy_governance_info:propagated_count
+  type: null

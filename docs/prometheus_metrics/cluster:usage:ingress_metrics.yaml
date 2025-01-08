@@ -1,0 +1,19 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:usage:ingress_frontend_bytes_out:rate5m:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:usage:ingress_frontend_bytes_in:rate5m:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:usage:ingress_frontend_connections:sum
+  type: null

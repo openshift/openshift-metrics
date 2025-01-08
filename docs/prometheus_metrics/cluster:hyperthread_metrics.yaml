@@ -1,0 +1,968 @@
+metrics:
+- labels:
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_invtsc
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_ivy_bridge_ibrs
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_entry_load_efer
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_xsaves
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_flexpriority
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_nmi_exit
+  - label_description: null
+    label_name: label_kubevirt_io_ksm_enabled
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_tsx_ctrl
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_rdseed_exit
+  - label_description: null
+    label_name: label_tsc_debug_group1
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_msr_bitmap
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_cr8_store_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_mce
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_invlpg_exit
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_cascadelake_server_no_tsx
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_mpx
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_de
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_exit_save_pat
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_fb_clear
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_icelake_server_no_tsx
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_ibpb
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_cr8_load_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_clwb
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_skylake_client_no_tsx_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_cmp_legacy
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_ssbd
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_invpcid_exit
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_apicv_vid
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512_vpopcntdq
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_ss
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_bmi2
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_entry_load_bndcfgs
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_epyc_milan
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_epyc
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_nx
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_md_clear
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_store_lma
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_msr_bitmap
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_exit_load_pat
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_tsc_offset
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pclmuldq
+  - label_description: null
+    label_name: label_cpumanager
+  - label_description: null
+    label_name: label_sriov_node
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512bitalg
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_exit_clear_bndcfgs
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_io_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_cr3_store_noexit
+  - label_description: null
+    label_name: label_host_model_cpu_node_kubevirt_io_haswell_no_tsx_ibrs
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_exit_clear_bndcfgs
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_haswell_no_tsx_ibrs
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_ibpb
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_v_vmsave_vmload
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_hypervisor
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_hlt_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_lahf_lm
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_smap
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_f16c
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_mtf
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_rdrand_exit
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_dhyana
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_pfthreshold
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_stibp
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_arch_capabilities
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_sse4_2
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_haswell_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512dq
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_rdtscp
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_invept_single_context
+  - label_description: null
+    label_name: label_tsc_debug_group3
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_store_lma
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_westmere_ibrs
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_icelake_server_no_tsx
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512bw
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_movdr_exit
+  - label_description: The name of the Kubernetes node on which the pod or container
+      is running.
+    label_name: node
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pcid
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_ibrs_all
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_opteron_g1
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_entry_load_pat
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_opteron_g1
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_ds
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_xsave
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_broadwell_no_tsx_ibrs
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2793436000
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_eptp_switching
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_sep
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_invvpid_single_addr
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vgif
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vpclmulqdq
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2099995000
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_no_nested_data_bp
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_x2apic
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512ifma
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pat
+  - label_description: null
+    label_name: label_kubernetes_io_hostname
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_lm
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_ept_2mb
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_rdrand_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_fma
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_desc_exit
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_dhyana
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2793437000
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_cr8_store_exit
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_shadow_vmcs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_intr_exit
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_secondary_ctls
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_svm
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_nmi_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_apicv_vid
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_epyc_rome
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_westmere_ibrs
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_amd_ssbd
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_eptad
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_flush_l1d
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pdpe1gb
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_sandy_bridge_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pause_filter
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_cr3_load_noexit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_la57
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_ept_execonly
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_tsc_adjust
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_epyc_rome
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_rdrand
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_invept_single_context
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_invept_all_context
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_posted_intr
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_nehalem_ibrs
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_vmwrite_vmexit_fields
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_exit_nosave_debugctl
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_virt_ssbd
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  - label_description: null
+    label_name: label_kubernetes_io_arch
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_invpcid
+  - label_description: null
+    label_name: label_host_model_cpu_node_kubevirt_io_epyc_milan
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_synic2
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pfthreshold
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_exit_load_perf_global_ctrl
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_reenlightenment
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_3dnowprefetch
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_reset
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_shadow_vmcs
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_nehalem
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_activity_wait_sipi
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_rdseed_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_lfence_always_serializing
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_xsaveerptr
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_entry_load_pat
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_xsaves
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_skylake_server_no_tsx_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_cx8
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_fsrm
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_fsgsbase
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_westmere
+  - label_description: null
+    label_name: label_beta_kubernetes_io_os
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_flush_l1d
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_vmwrite_vmexit_fields
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_cr8_load_exit
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_broadwell_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_cx16
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_page_walk_5
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_ept_execonly
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_preemption_timer
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_sha_ni
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_hle
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_abm
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2095076000
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2992968000
+  - label_description: null
+    label_name: label_tsc_debug_group2
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_synic
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_haswell
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_ibrs_all
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_sha_ni
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_1699996000
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_tsc_scale
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_activity_wait_sipi
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_epyc_ibpb
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_invvpid
+  - label_description: null
+    label_name: label_beta_kubernetes_io_arch
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_npt
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_mmx
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pse36
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_page_walk_4
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_vnmi
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_opteron_g3
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_pdpe1gb
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_perfctr_core
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_skylake_server_no_tsx_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512cd
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_tsx_ctrl
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_rdtscp_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512vbmi2
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_xgetbv1
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_vmfunc
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_f16c
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_entry_load_bndcfgs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pku
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_mds_no
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_popcnt
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_frequencies
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_vpindex
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_syscall
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_amd_psfd
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_msr
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_cr3_store_noexit
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_wbinvd_exit
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_1996249000
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_xsaveopt
+  - label_description: null
+    label_name: label_kubevirt_io_schedulable
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_stibp
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_base
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_stibp_always_on
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_flexpriority
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_lbrv
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_entry_ia32e_mode
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_monitor_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_aes
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_tsc_deadline
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_invvpid
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_rdrand
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_invvpid_single_addr
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_fb_clear
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_arat
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_psdp_no
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_ivy_bridge
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_exit_save_efer
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_activity_hlt
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_invpcid_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_xsaves
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_ipi
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_exit_load_efer
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_sandy_bridge
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_apicv_x2apic
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_sse
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vaes
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_rdpmc_exit
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2294608000
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_null_sel_clr_base
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_io_bitmap
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_exit_save_efer
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_tlbflush
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_rdctl_no
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_broadwell_no_tsx
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_apicv_register
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_lfence_always_serializing
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_vnmi
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_umip
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_invtsc
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_erms
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_sse2
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512vbmi
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2095078000
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_sandy_bridge_ibrs
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_broadwell_no_tsx
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_ds
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_apicv_register
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_haswell_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_secondary_ctls
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_ept_1gb
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vme
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_virt_ssbd
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pae
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_null_sel_clr_base
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_skylake_client_no_tsx_ibrs
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_vpid
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2099998000
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_tsc_scale
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_abm
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_md_clear
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_umip
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_exit_save_preemption_timer
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_broadwell
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_ibrs
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_ivy_bridge_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_wbnoinvd
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_dtes64
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_clzero
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_hlt_exit
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_gds_no
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_page_walk_5
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_svme_addr_chk
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_io_bitmap
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_skip_l1dfl_vmentry
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_1699998000
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pse
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_psdp_no
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_eptp_switching
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_icelake_server
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_unrestricted_guest
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_fpu
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_nehalem
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_pku
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2793405000
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vgif
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_mwait_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_exit_load_efer
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_rdtsc_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_spec_ctrl
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_preemption_timer
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_haswell
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_haswell_no_tsx_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_gds_no
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_time
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_nrip_save
+  - label_description: null
+    label_name: label_hypershift_ready
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_io_exit
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_tsc_scaling
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pge
+  - label_description: null
+    label_name: label_cpu_vendor_node_kubevirt_io_intel
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_pml
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_ept_1gb
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_fxsr
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_ssbd
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_apicv_xapic
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_invvpid_all_context
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_spec_ctrl
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_lbrv
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_mds_no
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_exit_ack_intr
+  - label_description: null
+    label_name: label_ingress_ready
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_cascadelake_server
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_rdpmc_exit
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_rdtsc_exit
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_apicv_x2apic
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_tsc_adjust
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_desc_exit
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_opteron_g3
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vme
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2095077000
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_bmi1
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_vpid
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_invept_all_context
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_page_walk_4
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_amd_stibp
+  - label_description: null
+    label_name: label_cpu_timer_node_kubevirt_io_tsc_scalable
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_cr8legacy
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmcb_clean
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_vmfunc
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_v_vmsave_vmload
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_westmere
+  - label_description: null
+    label_name: label_host_model_cpu_node_kubevirt_io_icelake_server
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_clflush
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_sbdr_ssdp_no
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_penryn
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_entry_noload_debugctl
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_vintr_pending
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_runtime
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_2294607000
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_vnmi_pending
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_pause_exit
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_arch_capabilities
+  - label_description: null
+    label_name: label_host_model_cpu_node_kubevirt_io_broadwell_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512vnni
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_apicv_xapic
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_avx512ifma
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_entry_ia32e_mode
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_x2apic
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_rdseed
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_sandy_bridge
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_broadwell_no_tsx_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_rdctl_no
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_exit_load_pat
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_pdcm
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_ept
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_exit_save_preemption_timer
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_exit_load_perf_global_ctrl
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_exit_save_pat
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_broadwell_ibrs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_monitor_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_invept
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_pause_filter
+  - label_description: null
+    label_name: label_single_interface_node
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_true_ctls
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vaes
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_cmp_legacy
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_entry_load_perf_global_ctrl
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_penryn
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_vintr_pending
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pdcm
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_pause_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_hypervisor
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_ssse3
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_pschange_mc_no
+  - label_description: null
+    label_name: label_node_hyperthread_enabled
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_activity_hlt
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_stibp_always_on
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_true_ctls
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_adx
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_1699997000
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_intr_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_mwait_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_entry_load_perf_global_ctrl
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_ept_2mb
+  - label_description: null
+    label_name: label_hyperv_node_kubevirt_io_synictimer
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_tsc
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_mmxext
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_cr3_load_noexit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_exit_ack_intr
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_epyc_ibpb
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_amd_psfd
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_cmov
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_ss
+  - label_description: null
+    label_name: label_ingress_ready_new
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_haswell_no_tsx
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_broadwell
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_vnmi_pending
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_sbdr_ssdp_no
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_pml
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_no_nested_data_bp
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_entry_noload_debugctl
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_dtes64
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_ibrs
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_epyc
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_movbe
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512f
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_apic
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_fxsr_opt
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_tsc_scaling
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_mtf
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_rdpid
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_xsaves
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_tsc_deadline
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_skip_l1dfl_vmentry
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_ins_outs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_xsavec
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_unrestricted_guest
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_amd_stibp
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_exit_nosave_debugctl
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_arat
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_mca
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_smep
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vpclmulqdq
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_osvw
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_amd_ssbd
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx512vl
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_posted_intr
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_xsaveopt
+  - label_description: null
+    label_name: label_host_model_cpu_node_kubevirt_io_cascadelake_server
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_gfni
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_avx2
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_entry_load_efer
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_eptad
+  - label_description: null
+    label_name: label_cpu_timer_node_kubevirt_io_tsc_frequency
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_1996250000
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_tsc_offset
+  - label_description: null
+    label_name: label_cpu_model_migration_node_kubevirt_io_haswell_no_tsx
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pni
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_rdpid
+  - label_description: null
+    label_name: label_scheduling_node_kubevirt_io_tsc_frequency_1700000000
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_invlpg_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_invvpid_all_context
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_misalignsse
+  - label_description: null
+    label_name: label_network_migration
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_sse4a
+  - label_description: null
+    label_name: label_cpu_vendor_node_kubevirt_io_amd
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_ept
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmcb_clean
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_fsrm
+  - label_description: null
+    label_name: label_node_openshift_io_os_id
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_pschange_mc_no
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_rtm
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_movdr_exit
+  - label_description: null
+    label_name: label_kubernetes_io_os
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_rdtscp_exit
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_ivy_bridge
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_invept
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_clflushopt
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_nehalem_ibrs
+  - label_description: null
+    label_name: label_cpu_model_node_kubevirt_io_cascadelake_server_no_tsx
+  - label_description: null
+    label_name: label_host_model_required_features_node_kubevirt_io_vmx_ins_outs
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_vmx_wbinvd_exit
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_mtrr
+  - label_description: null
+    label_name: label_cpu_feature_node_kubevirt_io_sse4_1
+  metric_description: null
+  metric_name: cluster:hyperthread_enabled_nodes
+  type: null

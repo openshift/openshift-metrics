@@ -1,0 +1,31 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: label_node_role_kubernetes_io
+  - label_description: null
+    label_name: label_kubernetes_io_arch
+  - label_description: null
+    label_name: label_node_openshift_io_os_id
+  metric_description: null
+  metric_name: cluster:node_instance_type_count:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:node_cpu:ratio_rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:node_cpu:ratio
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:node_cpu:sum_rate5m
+  type: null

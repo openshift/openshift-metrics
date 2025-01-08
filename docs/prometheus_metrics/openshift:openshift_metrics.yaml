@@ -1,0 +1,11 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: mode
+  - label_description: null
+    label_name: is_legacy_api
+  metric_description: null
+  metric_name: openshift:openshift_network_operator_ipsec_state:info
+  type: null

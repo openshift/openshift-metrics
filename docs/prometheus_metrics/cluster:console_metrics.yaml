@@ -1,0 +1,49 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: reason
+  metric_description: null
+  metric_name: cluster:console_auth_logout_requests_total:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:console_auth_login_requests_total:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: null
+    label_name: state
+  metric_description: null
+  metric_name: cluster:console_plugins_info:max
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: reason
+  metric_description: null
+  metric_name: cluster:console_auth_login_failures_total:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: role
+  metric_description: null
+  metric_name: cluster:console_auth_login_successes_total:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: role
+  metric_description: null
+  metric_name: cluster:console_usage_users:max
+  type: null

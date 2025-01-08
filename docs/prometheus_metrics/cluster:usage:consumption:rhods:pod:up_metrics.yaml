@@ -1,0 +1,10 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  metric_description: null
+  metric_name: cluster:usage:consumption:rhods:pod:up
+  type: null

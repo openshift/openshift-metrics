@@ -1,0 +1,17 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: system_manufacturer
+  - label_description: null
+    label_name: baseboard_manufacturer
+  - label_description: null
+    label_name: system_product_name
+  - label_description: null
+    label_name: baseboard_product_name
+  - label_description: null
+    label_name: type
+  metric_description: null
+  metric_name: cluster:virt_platform_nodes:sum
+  type: null
