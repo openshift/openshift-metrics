@@ -1,0 +1,161 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: priority_level
+  - label_description: null
+    label_name: apiserver
+  metric_description: null
+  metric_name: flow_schema_priority_level:apiserver_flowcontrol_current_executing_requests:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: priority_level
+  - label_description: null
+    label_name: apiserver
+  metric_description: null
+  metric_name: flow_schema_priority_level:apiserver_flowcontrol_request_execution_seconds_bucket:rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: priority_level
+  - label_description: null
+    label_name: apiserver
+  metric_description: null
+  metric_name: flow_schema_priority_level:apiserver_flowcontrol_request_execution_seconds_bucket:rate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: priority_level
+  - label_description: null
+    label_name: apiserver
+  metric_description: null
+  metric_name: flow_schema_priority_level:apiserver_flowcontrol_current_inqueue_requests:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: le
+  - label_description: null
+    label_name: priority_level
+  metric_description: null
+  metric_name: flow_schema_priority_level:apiserver_flowcontrol_request_wait_duration_seconds_bucket:rate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: le
+  - label_description: null
+    label_name: priority_level
+  metric_description: null
+  metric_name: flow_schema_priority_level_le:apiserver_flowcontrol_request_execution_seconds_bucket:rate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: reason
+  - label_description: null
+    label_name: priority_level
+  metric_description: null
+  metric_name: flow_schema_priority_level_reason:apiserver_flowcontrol_rejected_requests_total:rate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: reason
+  - label_description: null
+    label_name: priority_level
+  metric_description: null
+  metric_name: flow_schema_priority_level_reason:apiserver_flowcontrol_rejected_requests_total:rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: le
+  - label_description: null
+    label_name: priority_level
+  metric_description: null
+  metric_name: flow_schema_priority_level_le:apiserver_flowcontrol_request_execution_seconds_bucket:rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: le
+  - label_description: null
+    label_name: priority_level
+  metric_description: null
+  metric_name: flow_schema_priority_reason:apiserver_flowcontrol_request_queue_length_after_enqueue_bucket:rate1m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: le
+  - label_description: null
+    label_name: priority_level
+  metric_description: null
+  metric_name: flow_schema_priority_reason:apiserver_flowcontrol_request_queue_length_after_enqueue_bucket:rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: flow_schema
+  - label_description: null
+    label_name: le
+  - label_description: null
+    label_name: priority_level
+  metric_description: null
+  metric_name: flow_schema_priority_level:apiserver_flowcontrol_request_wait_duration_seconds_bucket:rate5m
+  type: null

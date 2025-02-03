@@ -1,0 +1,17 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: networks
+  metric_description: null
+  metric_name: cluster:network_attachment_definition_instances:max
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: networks
+  metric_description: null
+  metric_name: cluster:network_attachment_definition_enabled_instance_up:max
+  type: null

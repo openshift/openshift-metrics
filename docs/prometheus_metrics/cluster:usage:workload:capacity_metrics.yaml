@@ -1,0 +1,19 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:usage:workload:capacity_physical_cpu_cores:max:5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:usage:workload:capacity_physical_cpu_core_seconds
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  metric_description: null
+  metric_name: cluster:usage:workload:capacity_physical_cpu_cores:min:5m
+  type: null

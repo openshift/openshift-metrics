@@ -1,0 +1,9 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: code
+  metric_description: null
+  metric_name: code:cluster:ingress_http_request_count:rate5m:sum
+  type: null

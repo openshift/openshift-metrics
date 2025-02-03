@@ -1,0 +1,38 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The release version of the kernel running on the guest operating
+      system inside a virtual machine.
+    label_name: guest_os_kernel_release
+  - label_description: The version identifier of the guest operating system running
+      inside a virtual machine.
+    label_name: guest_os_version_id
+  - label_description: Indicates the size and resource allocation of the Virtual Machine
+      Instance (VMI), such as the amount of CPU, memory, and sometimes other resources
+      like storage.
+    label_name: flavor
+  - label_description: The type or architecture of the virtual machine's guest OS
+      machine, such as x86_64 or arm.
+    label_name: guest_os_machine
+  - label_description: The operating system running on the monitored virtual machine
+      or physical machine.
+    label_name: os
+  - label_description: The predefined type or class of the virtual machine instance,
+      indicating the allocated resources such as CPU, memory, and storage.
+    label_name: instance_type
+  - label_description: The specific configuration or policy preference applied to
+      a Virtual Machine Instance (VMI) or virtual machine.
+    label_name: preference
+  - label_description: The name of the Kubernetes node on which the pod or container
+      is running.
+    label_name: node
+  - label_description: Indicates the type of workload that the Virtual Machine Instance
+      (VMI) is configured to run, such as a server or a desktop environment.
+    label_name: workload
+  - label_description: The name of the guest operating system running inside a virtual
+      machine.
+    label_name: guest_os_name
+  metric_description: null
+  metric_name: cnv:vmi_status_running:count
+  type: null

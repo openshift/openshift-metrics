@@ -1,0 +1,17 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: null
+  metric_name: namespace:container_memory_usage_bytes:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: null
+  metric_name: namespace:container_cpu_usage:sum
+  type: null

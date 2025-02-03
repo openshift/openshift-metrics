@@ -1,0 +1,11 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: operation
+  - label_description: null
+    label_name: resource_type
+  metric_description: null
+  metric_name: imageregistry:operations_count:sum
+  type: null

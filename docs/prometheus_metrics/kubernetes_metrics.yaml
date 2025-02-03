@@ -1,0 +1,99 @@
+metrics:
+- labels:
+  - label_description: null
+    label_name: minor
+  - label_description: null
+    label_name: metrics_path
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the Kubernetes node on which the pod or container
+      is running.
+    label_name: node
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: go_version
+  - label_description: null
+    label_name: git_version
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: null
+    label_name: compiler
+  - label_description: null
+    label_name: major
+  - label_description: null
+    label_name: build_date
+  - label_description: null
+    label_name: git_commit
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: git_tree_state
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: null
+    label_name: platform
+  metric_description: '[ALPHA] A metric with a constant ''1'' value labeled by major,
+    minor, git version, git commit, git tree state, build date, Go version, and compiler
+    from which Kubernetes was built, and platform on which it is running.'
+  metric_name: kubernetes_build_info
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  metric_description: Number of nmstate features applied labeled by its name
+  metric_name: kubernetes_nmstate_features_applied
+  type: gauge
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The specific instance of the monitored service or application,
+      typically represented by an IP address or hostname.
+    label_name: instance
+  - label_description: null
+    label_name: apiserver
+  - label_description: The name of the pod in which the container is running.
+    label_name: pod
+  - label_description: The name of the resource being monitored.
+    label_name: name
+  - label_description: null
+    label_name: stage
+  - label_description: The name of the Prometheus job that is responsible for scraping
+      the metrics.
+    label_name: job
+  - label_description: The name of the Kubernetes service that the metrics are associated
+      with.
+    label_name: service
+  - label_description: The specific endpoint of the service or application being monitored.
+    label_name: endpoint
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: The name of the Kubernetes node on which the pod or container
+      is running.
+    label_name: node
+  - label_description: null
+    label_name: metrics_path
+  - label_description: The name of the container within a pod that is being monitored.
+    label_name: container
+  metric_description: '[BETA] This metric records the data about the stage and enablement
+    of a k8s feature.'
+  metric_name: kubernetes_feature_enabled
+  type: gauge

@@ -1,0 +1,11 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: priority_level
+  - label_description: null
+    label_name: apiserver
+  metric_description: null
+  metric_name: priority_level:apiserver_flowcontrol_request_concurrency_limit:sum
+  type: null

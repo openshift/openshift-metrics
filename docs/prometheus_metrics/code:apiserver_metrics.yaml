@@ -1,0 +1,29 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: code
+  metric_description: null
+  metric_name: code:apiserver_request_total:rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: code
+  metric_description: null
+  metric_name: code:apiserver_request_total:rate:sum
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: code
+  metric_description: null
+  metric_name: code:apiserver_request_total:rate1m
+  type: null

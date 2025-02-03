@@ -1,0 +1,21 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: le
+  metric_description: null
+  metric_name: list:apiserver_request_duration_seconds_bucket:rate5m
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: apiserver
+  - label_description: null
+    label_name: le
+  metric_description: null
+  metric_name: list:apiserver_request_duration_seconds_bucket:rate1m
+  type: null

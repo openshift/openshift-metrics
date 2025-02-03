@@ -1,0 +1,37 @@
+metrics:
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: null
+  metric_name: hypershift:apiserver_request_total:read
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  metric_description: null
+  metric_name: hypershift:apiserver_request_total:write
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: null
+    label_name: resource
+  - label_description: null
+    label_name: verb
+  metric_description: null
+  metric_name: hypershift:apiserver_request_aborts_total
+  type: null
+- labels:
+  - label_description: The original name of the metric as collected by Prometheus.
+    label_name: __name__
+  - label_description: The Kubernetes namespace in which the pod or service resides.
+    label_name: namespace
+  - label_description: null
+    label_name: system_client
+  metric_description: null
+  metric_name: hypershift:apiserver_request_total:client
+  type: null
